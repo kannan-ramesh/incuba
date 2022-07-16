@@ -1,7 +1,8 @@
 //L2-Q3
+//two pointer way j,i
 
-//let arr=["abc","john","cat","opera","noon"];
-let arr=["abc","adbc","cat","opera"];
+let arr=["abc","john","cat","opera","noon"];
+//let arr=["abc","adbc","cat","opera"];
 let temp=[];
 
 function conc(){
@@ -11,6 +12,9 @@ function conc(){
         return b.length - a.length;
     });
 
+
+
+    
     //first arrstr in stor result in j=0
     let j=0;
     let result="";
@@ -29,7 +33,7 @@ function conc(){
             //j move i location
             j=i;
         }
-         
+         //console.log(result);
     }
     return result;
 }
